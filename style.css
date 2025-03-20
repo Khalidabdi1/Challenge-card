@@ -1,0 +1,149 @@
+body{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  flex-direction: column;
+  font-size: 16px;
+  background-image: url(/images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: hsl(225, 100%, 94%);
+  font-family: "Red Hat Display", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  height: 100vh;
+  width: 100vw;
+
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    flex-direction: column;
+    background-color:white;
+    width: 400px;
+    border-radius: 16px;
+    box-shadow: 0px 1px 10px 1px hsl(244, 27%, 68%) ;
+}
+
+.price{
+    display: flex;
+    width: 300px;
+    background-color:hsl(225, 100%, 98%) ;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    height:100px;
+
+}
+
+.img-cover{
+    width: 100%;
+    background-size: cover;
+    border-top-right-radius: 16px;
+    border-top-left-radius: 16px;
+}
+
+.btns{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+}
+
+.btns button{
+border-radius: 8px;
+outline: none;
+width: 300px;
+padding: 10px;
+margin-bottom: 10px;
+}
+
+.card-tilte{
+    text-transform:capitalize;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.title-p {
+    text-align: center;
+    white-space: 100px;
+    color: hsl(223, 47%, 23%);
+    width: 340px;
+    text-transform: none;
+    margin-top: 5px;
+    color: #0b0a0a34;
+}
+.pay{
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    border: none;
+    box-shadow: 0px 10px 60px -7px hsl(245, 75%, 52%);
+    font-size: 16px;
+}
+
+.cencel{
+    border: none;
+    background-color: transparent;
+    margin-top: 20px;
+    color:#0b0a0a34;
+    font-size: 16px;
+}
+
+.price-content{
+    display: flex;
+   
+    margin-left: 10px;
+    flex-direction: column;
+    text-align: start;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.price-title{
+    font-size: 16px;
+    margin-bottom: 0px;
+    
+}
+.contanir-card{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: hsl(245, 75%, 52%);
+    margin-right: 10px;
+
+}
+
+span{
+    color:#0b0a0a34 ;
+}
+@media (max-width :375px){
+    .card{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        flex-direction: column;
+        background-color:white;
+        width: 350px;
+        border-radius: 16px;
+        box-shadow: 0px 1px 10px 1px hsl(244, 27%, 68%) ;
+    }
+
+} 

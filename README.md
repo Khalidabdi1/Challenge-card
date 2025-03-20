@@ -1,2 +1,0 @@
-# Challenge-card
-Challenge card
